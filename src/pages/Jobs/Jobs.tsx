@@ -45,7 +45,8 @@ const Jobs = () => {
 		event.preventDefault();
 		if (!validateRequiredInputFields(formDataFilledByUser)) return;
 		setJobs((prevJobs: Array<Job>) => {
-			const newJob: Job = formDataFilledByUser as Job;
+      const newJob: Job = formDataFilledByUser as Job;
+      newJob.applications = 0;
 			newJob.job_posting_id = highestJobId + 1;
 			setHighestJobId(highestJobId + 1);
 			return [...prevJobs, newJob];
