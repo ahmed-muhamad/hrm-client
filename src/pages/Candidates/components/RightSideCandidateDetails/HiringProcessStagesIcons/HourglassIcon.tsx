@@ -1,4 +1,4 @@
-import hourglassIcon from "assets/svg/HourglassIcon.svg";
+import hourglassIcon from "/assets/svg/HourglassIcon.svg";
 
 const HourglassIcon = () => {
 	return (

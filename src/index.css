@@ -6,7 +6,7 @@
 	@font-face {
 		font-family: "Urbanist-web";
 		src: local("Urbanist"),
-			url("assets/fonts/Urbanist/Urbanist-Medium.ttf") format("opentype");
+			url("/assets/fonts/Urbanist/Urbanist-Medium.ttf") format("opentype");
 		font-weight: 500;
 		font-style: normal;
 	}
@@ -14,7 +14,7 @@
 	@font-face {
 		font-family: "Urbanist-web";
 		src: local("Urbanist"),
-			url("assets/fonts/Urbanist/Urbanist-SemiBold.ttf")
+			url("/assets/fonts/Urbanist/Urbanist-SemiBold.ttf")
 				format("opentype");
 		font-weight: 600;
 		font-style: normal;
@@ -23,7 +23,7 @@
 	@font-face {
 		font-family: "Urbanist-web";
 		src: local("Urbanist"),
-			url("assets/fonts/Urbanist/Urbanist-Black.ttf") format("opentype");
+			url("/assets/fonts/Urbanist/Urbanist-Black.ttf") format("opentype");
 		font-weight: 900;
 		font-style: normal;
 	}

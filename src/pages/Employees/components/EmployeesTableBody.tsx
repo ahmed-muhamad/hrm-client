@@ -1,6 +1,6 @@
 import { Employee } from "../interfaces";
-import editIcon from "assets/svg/editIcon.svg";
-import garbageCanIcon from "assets/svg/garbageCan.svg";
+import editIcon from "/assets/svg/editIcon.svg";
+import garbageCanIcon from "/assets/svg/garbageCan.svg";
 import { addAndRemoveClassName } from "global/utils";
 import { useEffect, useRef } from "react";
 

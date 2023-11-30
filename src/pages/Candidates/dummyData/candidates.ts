@@ -4,7 +4,7 @@ import { Candidate } from "../interfaces";
 const candidatesDummyData: Array<Candidate> = [
 	{
 		candidate_id: 0,
-		image_name: "/src/assets/images/employees/lois-walker.jpg",
+		image_name: "/assets/images/employees/lois-walker.jpg",
 		name: "Lois Walker",
 		email: "lois.walker@hotmail.com",
 		phone_number: "580-299-5900",
@@ -17,7 +17,7 @@ const candidatesDummyData: Array<Candidate> = [
 	},
 	{
 		candidate_id: 1,
-		image_name: "/src/assets/images/employees/joe-robinson.jpg",
+		image_name: "/assets/images/employees/joe-robinson.jpg",
 		name: "Joe Robinson",
 		email: "joe.robinson@gmail.com",
 		phone_number: "334-423-2075",
@@ -30,7 +30,7 @@ const candidatesDummyData: Array<Candidate> = [
 	},
 	{
 		candidate_id: 2,
-		image_name: "/src/assets/images/employees/benjamin-russell.jpg",
+		image_name: "/assets/images/employees/benjamin-russell.jpg",
 		name: "Benjamin Russell",
 		email: "benjamin.russell@charter.net",
 		phone_number: "210-718-8543",
@@ -43,7 +43,7 @@ const candidatesDummyData: Array<Candidate> = [
 	},
 	{
 		candidate_id: 3,
-		image_name: "/src/assets/images/employees/patrick-bailey.jpg",
+		image_name: "/assets/images/employees/patrick-bailey.jpg",
 		name: "Patrick Bailey",
 		email: "patrick.bailey@aol.com",
 		phone_number: "785-696-3386",
@@ -56,7 +56,7 @@ const candidatesDummyData: Array<Candidate> = [
 	},
 	{
 		candidate_id: 4,
-		image_name: "/src/assets/images/employees/carol-murphy.jpg",
+		image_name: "/assets/images/employees/carol-murphy.jpg",
 		name: "Carol Murphy",
 		email: "carol.murphy@gmail.com",
 		phone_number: "650-364-2757",
@@ -69,7 +69,7 @@ const candidatesDummyData: Array<Candidate> = [
 	},
 	{
 		candidate_id: 5,
-		image_name: "/src/assets/images/employees/ralph-flores.jpg",
+		image_name: "/assets/images/employees/ralph-flores.jpg",
 		name: "Ralph Flores",
 		email: "ralph.flores@yahoo.com",
 		phone_number: "402-996-8546",
@@ -82,7 +82,7 @@ const candidatesDummyData: Array<Candidate> = [
 	},
 	{
 		candidate_id: 6,
-		image_name: "/src/assets/images/employees/jack-alexander.jpg",
+		image_name: "/assets/images/employees/jack-alexander.jpg",
 		name: "Jack Alexander",
 		email: "jack.alexander@gmail.com",
 		phone_number: "847-652-0746",
@@ -95,7 +95,7 @@ const candidatesDummyData: Array<Candidate> = [
 	},
 	{
 		candidate_id: 7,
-		image_name: "/src/assets/images/employees/wayne-watson.jpg",
+		image_name: "/assets/images/employees/wayne-watson.jpg",
 		name: "Wayne Watson",
 		email: "wayne.watson@gmail.com",
 		phone_number: "518-566-5865",
@@ -108,7 +108,7 @@ const candidatesDummyData: Array<Candidate> = [
 	},
 	{
 		candidate_id: 8,
-		image_name: "/src/assets/images/employees/joshua-stewart.jpg",
+		image_name: "/assets/images/employees/joshua-stewart.jpg",
 		name: "Joshua Stewart",
 		email: "joshua.stewart@yahoo.ca",
 		phone_number: "605-528-1618",
@@ -121,7 +121,7 @@ const candidatesDummyData: Array<Candidate> = [
 	},
 	{
 		candidate_id: 9,
-		image_name: "/src/assets/images/employees/thomas-lewis.jpg",
+		image_name: "/assets/images/employees/thomas-lewis.jpg",
 		name: "Thomas Lewis",
 		email: "thomas.lewis@gmail.com",
 		phone_number: "347-522-2976",

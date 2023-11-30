@@ -1,8 +1,8 @@
 import { Job } from "../interfaces";
-import editIcon from "assets/svg/jobEditingIcon.svg";
-import deleteIcon from "assets/svg/jobGarbageCan.svg";
-import locationPinIcon from "assets/svg/locationPin.svg";
-import mortarboard from "assets/svg/mortarboard.svg";
+import editIcon from "/assets/svg/jobEditingIcon.svg";
+import deleteIcon from "/assets/svg/jobGarbageCan.svg";
+import locationPinIcon from "/assets/svg/locationPin.svg";
+import mortarboard from "/assets/svg/mortarboard.svg";
 
 interface Props {
 	jobsData: Array<Job>;

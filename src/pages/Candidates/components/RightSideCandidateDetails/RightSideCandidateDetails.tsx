@@ -1,5 +1,5 @@
-import emailIcon from "assets/svg/email.svg";
-import oldHeadset from "assets/svg/oldHeadset.svg";
+import emailIcon from "/assets/svg/email.svg";
+import oldHeadset from "/assets/svg/oldHeadset.svg";
 import { ApplicationDetails } from "./ApplicationDetails.tsx";
 import { useCandidateContext } from "pages/Candidates/context/CandidateContext.tsx";
 

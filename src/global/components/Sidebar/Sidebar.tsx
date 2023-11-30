@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import mainLogo from "assets/images/star.png";
+import mainLogo from "/assets/images/star.png";
 import { CandidatesIcon } from "./CandidatesIcon.tsx";
 import { JobsIcon } from "./JobsIcon.tsx";
 import { EmployeesIcon } from "./EmployeesIcon.tsx";
