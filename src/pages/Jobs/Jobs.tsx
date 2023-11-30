@@ -73,6 +73,10 @@ const Jobs = () => {
 				[typeof key, typeof value]
 			>) {
 				if (value) (jobToEdit[key] as Job[keyof Job]) = value;
+				else if (key === "remote" && typeof value === "number") {
+					(jobToEdit[key] as Job[keyof Job]) =
+						value as string | number;
+				}
 			}
 			jobToEdit.updated_at = new Date()
 				.toISOString()
