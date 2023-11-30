@@ -45,11 +45,11 @@ const JobsFormControls = ({ setFormDataFilledByUser }: Props) => {
 	return (
 		<>
 			<div className="grid">
-				<label htmlFor="jobTitle">Job title:</label>
+				<label htmlFor="job_title">Job title:</label>
 				<input
 					type="text"
-					id="jobTitle"
-					name="jobTitle"
+					id="job_title"
+					name="job_title"
 					maxLength={60}
 					className="bg-[#363636] px-3 rounded-md"
 					onChange={handleNewData}
@@ -69,11 +69,11 @@ const JobsFormControls = ({ setFormDataFilledByUser }: Props) => {
 			</div>
 
 			<div className="grid">
-				<label htmlFor="employmentType">Employment type:</label>
+				<label htmlFor="employment_type">Employment type:</label>
 				<input
 					type="text"
-					id="employmentType"
-					name="employmentType"
+					id="employment_type"
+					name="employment_type"
 					maxLength={14}
 					className="bg-[#363636] px-3 rounded-md"
 					onChange={handleNewData}
@@ -81,11 +81,11 @@ const JobsFormControls = ({ setFormDataFilledByUser }: Props) => {
 			</div>
 
 			<div className="grid">
-				<label htmlFor="minSalary">Min salary:</label>
+				<label htmlFor="min_salary">Min salary:</label>
 				<input
 					type="text"
-					id="minSalary"
-					name="minSalary"
+					id="min_salary"
+					name="min_salary"
 					maxLength={7}
 					className="bg-[#363636] px-3 rounded-md"
 					onChange={handleNewData}
@@ -93,11 +93,11 @@ const JobsFormControls = ({ setFormDataFilledByUser }: Props) => {
 			</div>
 
 			<div className="grid">
-				<label htmlFor="maxSalary">Max salary:</label>
+				<label htmlFor="max_salary">Max salary:</label>
 				<input
 					type="text"
-					id="maxSalary"
-					name="maxSalary"
+					id="max_salary"
+					name="max_salary"
 					maxLength={13}
 					className="bg-[#363636] px-3 rounded-md"
 					onChange={handleNewData}
