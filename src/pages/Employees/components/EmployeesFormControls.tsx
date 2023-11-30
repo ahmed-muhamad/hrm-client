@@ -108,11 +108,11 @@ const EmployeesFormControls = ({ setFormDataFilledByUser }: Props) => {
 			</div>
 
 			<div className="grid">
-				<label htmlFor="phoneNumber">Phone number:</label>
+				<label htmlFor="phone_number">Phone number:</label>
 				<input
 					type="tel"
-					id="phoneNumber"
-					name="phoneNumber"
+					id="phone_number"
+					name="phone_number"
 					className="bg-[#363636] px-3 rounded-md"
 					onChange={handleEmployeeNewData}
 				/>
@@ -130,11 +130,11 @@ const EmployeesFormControls = ({ setFormDataFilledByUser }: Props) => {
 			</div>
 
 			<div className="grid">
-				<label htmlFor="employmentType">Employment type:</label>
+				<label htmlFor="employment_type">Employment type:</label>
 				<input
 					type="text"
-					id="employmentType"
-					name="employmentType"
+					id="employment_type"
+					name="employment_type"
 					className="bg-[#363636] px-3 rounded-md"
 					onChange={handleEmployeeNewData}
 				/>
